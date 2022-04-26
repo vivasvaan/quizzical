@@ -438,6 +438,9 @@
     stepTwo.style.visibility = stepThree.style.visibility = "hidden";
     stepTwo.style.display = stepThree.style.display = "none";
     stepTwo.style.opacity = stepThree.style.opacity = 0;
+    if(document.getElementById("player")){
+      document.getElementById("player").pause();
+    }
   }
 
   function getQuizDataFromUrl() {
