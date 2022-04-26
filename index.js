@@ -439,7 +439,9 @@
     stepTwo.style.display = stepThree.style.display = "none";
     stepTwo.style.opacity = stepThree.style.opacity = 0;
     if(document.getElementById("player")){
-      document.getElementById("player").pause();
+      var player = document.getElementById("player");
+      player.pause();
+      player.currentTime = 0;
     }
   }
 
