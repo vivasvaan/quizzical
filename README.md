@@ -1,1 +1,1 @@
-# quizzical
+# js-quiz
