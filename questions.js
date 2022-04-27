@@ -76,7 +76,7 @@ const questions = [
       {
         question:
           "Which is the correct JavaScript syntax to change the HTML content given below?<br>" +
-          "<code id=”test”><b>Hello World!</b></code>",
+          "<code id=”test”><strong>Hello World!</strong></code>",
         answers: {
           a: " document.getElementById(“test”).innerHTML = “Hello DataFlair!”;",
           b: " document.getElementsById(“test”).innerHTML = “Hello DataFlair!”;",

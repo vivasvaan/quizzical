@@ -9,6 +9,9 @@ body {
   text-align: center;
   background-color: #f8f6f0;
 }
+strong{
+  font-weight:bold;
+}
 .page-heading {
   background: #e9e9f2;
   height: 60px;

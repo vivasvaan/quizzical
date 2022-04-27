@@ -1,0 +1,4 @@
+1)- Celebration css :- https://codepen.io/zer0kool/pen/KjZWRW
+2)- Quiz API :- https://opentdb.com/api_config.php
+3)- Chart.js :- https://www.chartjs.org/
+4)- For css advance properties :- https://getbootstrap.com/docs/5.1/getting-started/introduction/

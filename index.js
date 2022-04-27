@@ -62,7 +62,7 @@
     restart = document.getElementById("restart");
     document.getElementById(
       "selected-category"
-    ).innerHTML = `<b>Category:</b> ${evt.currentTarget.param}`;
+    ).innerHTML = `<strong>Category:</strong> ${evt.currentTarget.param}`;
 
     // Kick things off
     myQuestions = shuffle(
@@ -165,10 +165,10 @@
         `<div class="slide ${
           currentQuestion.type
         }" id="question${questionNumber}">
-            <div class="question"><b>Question: </b> ${
+            <div class="question"><strong>Question: </strong> ${
               currentQuestion.question
             } ${imageContainer} ${audioContainer}</div>
-            <div class="answers"> <b style="position: absolute;left: 10px;">Options: </b> <br> ${answers.join(
+            <div class="answers"> <strong style="position: absolute;left: 10px;">Options: </strong> <br> ${answers.join(
               ""
             )} </div>
         </div>`
@@ -322,15 +322,15 @@
 
     document.getElementById(
       "totalQues"
-    ).innerHTML = `<b>Total Question:</b> ${myQuestions.length}`;
+    ).innerHTML = `<strong>Total Question:</strong> ${myQuestions.length}`;
     document.getElementById(
       "correctAns"
-    ).innerHTML = `<b>Correct Answer:</b> ${numCorrect}`;
-    // document.getElementById("notAttempted").innerHTML = `<b>Not Attempted:</b> ${notAttempted}`;
-    document.getElementById("wrongAns").innerHTML = `<b>Wrong Answer:</b> ${
+    ).innerHTML = `<strong>Correct Answer:</strong> ${numCorrect}`;
+    // document.getElementById("notAttempted").innerHTML = `<strong>Not Attempted:</strong> ${notAttempted}`;
+    document.getElementById("wrongAns").innerHTML = `<strong>Wrong Answer:</strong> ${
       myQuestions.length - numCorrect
     }`;
-    document.getElementById("timeTaken").innerHTML = `<b>Time Taken:</b> ${
+    document.getElementById("timeTaken").innerHTML = `<strong>Time Taken:</strong> ${
       document.getElementById("safeTimerDisplay").innerHTML
     }`;
     playAudio();
